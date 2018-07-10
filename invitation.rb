@@ -26,18 +26,7 @@ party_name = gets.chomp
 
 date = gets.chomp
 
-puts "Dear #{guest_name}"
-
-
-puts "You are cordially invited to #{party_name}"
-
-
-puts "on #{date}"
-
-time = gets.chomp
-
-puts "at #{time}."
-
 host_name = gets.chomp
 
-puts " Please RSVP no later than October 30. Sincerely, #{host_name}"
+
+puts "Dear #{guest_name} You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30. Sincerely, #{host_name}"

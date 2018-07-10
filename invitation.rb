@@ -22,6 +22,8 @@
 
 guest_name = gets.chomp
 
+
+
 puts "Dear #{guest_name}"
 
 # Try starting out with puts'ing a string.

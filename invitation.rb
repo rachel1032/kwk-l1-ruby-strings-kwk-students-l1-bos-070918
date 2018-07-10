@@ -24,12 +24,13 @@ guest_name = gets.chomp
 
 party_name = gets.chomp
 
+date = gets.chomp
+
 puts "Dear #{guest_name}"
 
 
 puts "You are cordially invited to #{party_name}"
 
-date = gets.chomp
 
 puts "on #{date}"
 

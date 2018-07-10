@@ -26,8 +26,8 @@ party_name = gets.chomp
 
 date = gets.chomp
 
-host_name = gets.chomp
-
 time = gets.chomp
+
+host_name = gets.chomp
 
 puts "Dear #{guest_name} You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than October 30. Sincerely, #{host_name}"

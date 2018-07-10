@@ -22,13 +22,10 @@
 
 guest_name = gets.chomp
 
-
+party_name = gets.chomp
 
 puts "Dear #{guest_name}"
 
-# Try starting out with puts'ing a string.
-
-party_name = gets.chomp
 
 puts "You are cordially invited to #{party_name}"
 

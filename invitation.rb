@@ -20,13 +20,23 @@
 
 # Code your prompts here!
 
+puts "Who is the party guest?"
+
 guest_name = gets.chomp
+
+puts "What is the name of the party?"
 
 party_name = gets.chomp
 
+puts "What is the date of the party?"
+
 date = gets.chomp
 
+puts "What time is the party at?"
+
 time = gets.chomp
+
+puts "Who is hosting the party?"
 
 host_name = gets.chomp
 
